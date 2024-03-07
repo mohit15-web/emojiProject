@@ -9,8 +9,9 @@ body {
   color: black;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
+  background: linear-gradient(to right,rgb(222, 133, 224),rgb(214, 210, 214));
 }
 
 h1 {
@@ -29,16 +30,17 @@ button {
 /* form */
 /* Styles for the form container */
 form {
-    width: 100%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    margin: 0 auto;
   }
   
 
   input {
-    width: 70%;
+    width: 50%;
     padding: 10px;
     border: 1px solid #ced4da;
     border-radius: 5px;
@@ -48,18 +50,27 @@ form {
   button {
     /* width: 100%; */
     padding: 10px;
-    background-color: #007bff;
+  background: linear-gradient(600deg,rgb(243, 16, 247),rgb(214, 210, 214));
+
     color: #fff;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
   }
-  
+/*   
   button:hover {
     background-color: #0056b3;
+  } */
+
+  .emojii_container{
+    width: 70%;
   }
   
+  table{
+    display: flex;
+    justify-content: center;
+  }
 .emoji{
     font-size: 2rem;
     padding: 1rem 0;

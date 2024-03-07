@@ -28,16 +28,14 @@ function displayEmoji(query){
     });
 
     const emojis = document.querySelectorAll('.emoji');
-    // const table = document.getElementsByName('table')
 
     emojis.forEach(emoji => {
         emoji.style.fontSize = '2rem';
         emoji.style.padding = '1rem 0';
-        // table.style.marginLeft = '0'
     });
     
-    // const table = emojiContainer.parentElement; // Assuming the table is the parent of the emoji container
-    // table.style.marginLeft = '0';
+    const table = emojiContainer.parentElement; // Assuming the table is the parent of the emoji container
+    table.style.marginLeft = '0';
 }
 
 function findEmoji(e){
