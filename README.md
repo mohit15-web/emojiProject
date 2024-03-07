@@ -28,4 +28,8 @@ Welcome to the Emoji Search Project! This project allows you to search for emoji
 - Click on an emoji to copy it to your clipboard.
 - Scroll down to view more emojis.
 
+ ## 🎥 Demo
+
+-You can see a live demo of the Random Colour Generator [here](https://mohit15-web.github.io/emojiProject/).
+
 
